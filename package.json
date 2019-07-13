@@ -1,0 +1,26 @@
+{
+  "name": "sports-programming",
+  "version": "1.0.0",
+  "description": "Спортивное программирование  Курс Stepik",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bad4iz/sports-programming.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bad4iz/sports-programming/issues"
+  },
+  "homepage": "https://github.com/bad4iz/sports-programming#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  }
+}
