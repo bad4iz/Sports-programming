@@ -3,7 +3,7 @@ import example from './lesson_2.9.1';
 describe('lesson 2.9.1', () => {
   it('expample', () => {
     const expected = '2 1';
-    expect(example({ m: 2, n: 2 })[2]).toEqual(expected);
+    expect(example({ n: 2, m: 2 })[2]).toEqual(expected);
   });
 
   it(' n=6, m=5, имеющую номер 6659', () => {
