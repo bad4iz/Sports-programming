@@ -1,26 +1,26 @@
-import example from './lesson_2.9.3';
+import example from './example_1.3';
 
-describe('lesson 1.3', () => {
+describe('Example_1.3  ', () => {
   const n = 3;
 
-  it('expample', () => {
+  it('test', () => {
     expect(example('')).toBeFalsy();
   });
-  it('expample 1 ((())())))', () => {
+  it('test 1 ((())())))', () => {
     expect(example('((())())))')).toBeFalsy();
   });
 
-  it('expample 2 ((((())))', () => {
+  it('test 2 ((((())))', () => {
     expect(example('')).toBeFalsy();
   });
 
-  it('expample 3 (()))((())', () => {
+  it('test 3 (()))((())', () => {
     expect(example('')).toBeFalsy();
   });
-  it('expample 4 (())(())()', () => {
+  it('test 4 (())(())()', () => {
     expect(example('')).toBeTruthy();
   });
-  it('expample 5 (()())(())', () => {
+  it('test 5 (()())(())', () => {
     expect(example('')).toBeTruthy();
   });
 });

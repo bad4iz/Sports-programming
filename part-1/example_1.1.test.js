@@ -1,7 +1,7 @@
-import example from './lesson_2.9.1';
+import example from './example_1.1';
 
-describe('lesson 2.9.1', () => {
-  it('expample', () => {
+describe('Example 1.1', () => {
+  it('test', () => {
     const expected = '2 1';
     expect(example({ n: 2, m: 2 })[2]).toEqual(expected);
   });

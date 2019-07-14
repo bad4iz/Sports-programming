@@ -1,5 +1,5 @@
 /**
- * @module solution example 2.9.2
+ * @module solution example 1.2
  * @param {number} n
  * @returns {Array}
  */
