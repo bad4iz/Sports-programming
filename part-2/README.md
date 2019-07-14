@@ -1,4 +1,4 @@
-# Sports-programming
+# [Sports-programming](https://github.com/bad4iz/sports-programming)
 Спортивное программирование
 ## второй модуль
 
