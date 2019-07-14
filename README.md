@@ -12,7 +12,7 @@
 > **в эту же ветку**
 
  запусятся тесты не пройдут то вы увидите   
- ![](../../tree/master/img/fail.png)  
+ ![](https://github.com/bad4iz/sports-programming/blob/master/img/fail.png?raw=true)  
  если же удачно  !!!  
  ![]()
  
