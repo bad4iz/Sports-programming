@@ -6,8 +6,19 @@
  */
 export default ({ m, n }) => {
   const answer = [];
+  const arr = [];
 
-  // todo: тут решение
+  function rec(cursor) {
+    if (cursor === n) {
+      answer.push(arr.join(' '));
+      return;
+    }
+    for (let i = 1; i <= m; i++) {
+      arr[cursor] = i;
+      rec(cursor + 1);
+    }
+  }
+  rec(0);
 
   return answer;
 };
