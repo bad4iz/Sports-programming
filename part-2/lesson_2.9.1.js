@@ -1,3 +1,13 @@
-const reca = ({ m, n }) => {};
+/**
+ * @module solution example 2.1.9
+ * @param {number} m
+ * @param {number} n
+ * @returns {Array}
+ */
+export default ({ m, n }) => {
+  const answer = [];
 
-export default reca;
+  // todo: тут решение
+
+  return answer;
+};
