@@ -1,5 +1,5 @@
 /**
- * @module solution example 2.9.3
+ * @module solution example 1.3
  * @param {string} string
  * @returns {boolean}
  */
