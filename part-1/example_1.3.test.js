@@ -1,8 +1,6 @@
 import example from './example_1.3';
 
 describe('Example_1.3  ', () => {
-  const n = 3;
-
   it('test', () => {
     expect(example('')).toBeFalsy();
   });
