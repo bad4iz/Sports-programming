@@ -11,16 +11,18 @@ describe('Example_1.3  ', () => {
   });
 
   it('test 2 ((((())))', () => {
-    expect(example('')).toBeFalsy();
+    example('((((())))'); //?
+    expect(example('((((())))')).toBeFalsy();
   });
 
   it('test 3 (()))((())', () => {
-    expect(example('')).toBeFalsy();
+    expect(example('(()))((())')).toBeFalsy();
   });
   it('test 4 (())(())()', () => {
-    expect(example('')).toBeTruthy();
+    example('(())(())()'); //?
+    expect(example('(())(())()')).toBeTruthy();
   });
   it('test 5 (()())(())', () => {
-    expect(example('')).toBeTruthy();
+    expect(example('(()())(())')).toBeTruthy();
   });
 });
