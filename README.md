@@ -18,8 +18,10 @@ jest ./part-1/example_1.1.test.js
 
 или же в своей среде разработки как пример в phpstorm
 в файле теста к своему заданию кликаем тесты  
+
  ![](https://github.com/bad4iz/sports-programming/blob/master/img/Screenshot.png?raw=true)  
     
+
 
 что бы полностью проверить свое решение по всей части нужно замерджить себе в локальную ветку 
 для ветку (для примера `example_part_1`) сделать все решениия и сделать 
